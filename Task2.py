@@ -1,6 +1,7 @@
-# Two Questions
-name = input("What is your name?\n>")
-like = input("what do you like?\n>")
-# printing blank line
-print("")
-print(name,"likes", like)
+# base and height initialization
+b = 7
+h = 3.5
+area = (b*h)/2
+print("Calculated Area", area)
+print("Rounded to 1 decimal place Area:", round(area,1))
+print("Nearest Integer rounded:", round(area))
