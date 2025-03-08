@@ -1,0 +1,1 @@
+Calculate the tip amount, given a bill amount and the tip ratio.

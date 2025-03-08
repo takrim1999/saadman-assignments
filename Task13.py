@@ -1,0 +1,5 @@
+bill = float(input("Your Bill: "))
+tip = float(input("The Tip ratio(write the percentage, ex: for 20% write 20): "))
+print(f"Bill: {bill}")
+print(f"Tip: {(bill*tip)/100}")
+print(f"Total Bill:{bill + (bill*tip)/100}")
